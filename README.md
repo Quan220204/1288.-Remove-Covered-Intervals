@@ -23,7 +23,7 @@ All the given intervals are unique.
     This exercise is quite interesting, the idea is to sort for ascending left limit(l) and descending right(r) limit, 
     this time I'm a bit regretful because at first I thought of this idea but thought I couldn't sort like that so i missed it.
     
-    After a while I came up with a strict explanation for my idea:
+    After a while I came up with this idea:
     
     The array is sorted so that l increases and r decreases, then we have intervals[i] -> intervals[j], each of these 
     segments has l respectively l = k0, k1, ..., km(k[i]<k[i+p) ], p>0) infer that intervals with l=k[i+p] cannot cover 
